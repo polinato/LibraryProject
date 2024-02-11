@@ -1,0 +1,30 @@
+Button {
+    -fx-background-color: #ddeeff;
+    -fx-background-radius: 10;
+}
+MenuBar {
+    -fx-background-color: #ddeeff;
+}
+ToolBar {
+    -fx-background-color: inherit;
+}
+BorderPane {
+    -fx-background-color: #FFFFFF;
+}
+Label {
+    -fx-text-fill: black;
+    -fx-effect: dropshadow(one-pass-box, #A0A3FF, 5, 0.1, 0.0, 0.0)
+}
+SVGPath {
+    -fx-fill: #444AFF;
+    -fx-effect: dropshadow(one-pass-box, #E3E4FF, 8, 0.1, 0.0, 0.0)
+}
+TableView .table-cell: odd {
+      -fx-background-color: #f3f9ff;
+}
+TableView .table-cell: even {
+      -fx-background-color: #FFFFFF;
+}
+TableView .column-header {
+      -fx-background-color: #ddeeff;
+}

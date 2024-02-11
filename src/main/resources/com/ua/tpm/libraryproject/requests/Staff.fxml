@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="800.0" prefWidth="1180.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ua.tpm.libraryproject.requests.StaffController">
+   <children>
+      <TableView layoutX="84.0" prefHeight="700.0" prefWidth="1060.0" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="50.0">
+        <columns>
+          <TableColumn fx:id="firstNameColumn" prefWidth="265.0" text="Ім'я" />
+          <TableColumn fx:id="secondNameColumn" prefWidth="265.0" text="Прізвище" />
+            <TableColumn fx:id="positionColumn" prefWidth="265.0" text="Посада" />
+            <TableColumn fx:id="salaryColumn" prefWidth="265.0" text="Оклад" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
